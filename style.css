@@ -1,4 +1,4 @@
-body h1{
+body h1,body p{
     font-size: 60px;
     color: red;
     width: 50%;
@@ -6,3 +6,24 @@ body h1{
     text-align: center;
     
 }
+
+body p{
+    font-size: 30px;
+    color: rgb(9, 59, 44);
+    padding: 50px;
+}
+
+.blinking {
+    animation: blink 1s infinite;
+  }
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
